@@ -1,0 +1,32 @@
+.slider-container {
+
+    .swiper-slide img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .slider-controler {
+        position: relative;
+        bottom: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        div {
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            padding: 2.5px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .3s ease;
+
+            &:hover {
+                border: 1px solid currentColor;
+                transition: .3s ease;
+            }
+        }
+    }
+}

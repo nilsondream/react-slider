@@ -1,0 +1,19 @@
+.home-styled {
+    padding: 65px 0;
+    min-height: 100vh;
+
+    .title {
+        padding: 0 25px;
+
+        h1 {
+            font-size: 80px;
+            line-height: 70px;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+        }
+    }
+}

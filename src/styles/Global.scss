@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Condensed';
+    src: url('../assets/HelveticaNeue-CondensedBold.ttf');
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../assets/HelveticaNeue.ttf');
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('../assets/Recoleta-Bold.ttf');
+}
+
+body {
+    font-family: 'Helvetica Neue Condensed';
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #ededed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Helvetica Neue Condensed';
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    background: none;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-transform: inherit;
+}
+
+@import './Header.scss';
+@import './Footer.scss';
+@import './Home.scss';
+@import './Slide.scss';
